@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Nathan Lingwall World Tech Class for Front End Development Stack</title>
+  
+  <!-- Included CSS Files -->
+  <link rel="stylesheet" href="style.css">
+
+
+  /*<script src="javascripts/modernizr.foundation.js"></script>*/
+
+  /*<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>*/
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<h1>Nathan Lingwall</h1>
+<div class="why"> <p>To remain competitive in today's job market you need to constantly be advancing your skills.  I have a love of coding that I never dreamed I would have when starting out in college.  I aspire to expand my coding knowledge and enable myself to a greater asset to employers while benefiting myself in a step towards creative and financial autonomy.<p></div>
+<hr>
+<h3>Favorite Websites</h3>
+<ul>
+<li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+<li></li>
+<li></li>
+  
+
+</body>
+</html>

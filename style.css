@@ -1,0 +1,425 @@
+/* Style Sheet*/
+body{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-image: repeating-linear-gradient(red, orange, yellow, green, blue,indigo,purple,red);
+    background-repeat: no-repeat;
+
+    
+}
+
+h1{
+    color:purple;
+}
+
+   
+body:visited{
+    
+    text-decoration: none;
+}     
+
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    
+}
+
+.fws-link{
+color:black;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20%;
+    background-image: repeating-linear-gradient(red, orange, yellow, green, blue,indigo,purple,red);
+  }
+  
+  li {
+    float: center;
+  }
+  
+  li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    
+  }
+
+
+
+
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-image: radial-gradient(red, orange, yellow, green, blue,indigo,purple,red);
+    color:black;
+}
+  
+
+
+.links{
+    display:flex;
+
+    height:10%;
+    justify-content: center;
+
+
+}
+
+.name{
+    font-family: cursive;
+    margin: 10px;
+
+}
+
+#header-why{
+text-align: center;
+
+}
+
+#why{
+    display:block; 
+    text-align: center;
+    min-width: 330px;  
+    max-width: 60%;
+    margin: 0 0 0 250px;
+}
+
+#favoritewebsite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    order:3;
+  
+    
+  } 
+
+ .header-fav{
+   display:block;
+   text-align: center;
+
+
+ } 
+
+ .list-website{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+ }
+
+ .allcard {
+    /* Add shadows to create the "card" effect */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding:1px;
+    margin: 20px;
+    Width: 225px;
+ 
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .allcard:hover {
+    box-shadow: 0 20px 36px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  .container {
+    text-align: center;  
+    padding: 2px 16px;
+    color:white;
+  }
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 10px;
+
+  
+}
+  
+  /* .wrapper :first-child {
+      align-self: center;
+  } */
+
+/* .box{
+    margin:1px;    
+} */
+
+
+.yt:hover{
+    
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;    
+}
+
+.yt:hover::before{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    content: "YouTube: Learn Anything";
+    color: rgb(250, 249, 249);
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40%;
+    border-width:10px;
+    border-color: white;
+  
+}
+
+.nl:hover{
+
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.nl:hover::before{
+    content: "Business Intelligence - Anything can be done with SQL";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 40%;
+    border-width:10px;
+    border-color: white;
+  
+    
+}
+
+.rd:hover{
+
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.rd:hover::before{
+    content: "Reddit - The Front Page of the Internet!";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+.ksl:hover{
+
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.ksl:hover::before{
+    content: "KSL - Utah's Local News";
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+.dr:hover{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.dr:hover::before{
+    content: "Drudge Report - The Crazy Right Wing of the News.";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+.ht:hover{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.ht:hover::before{
+    content: "Hotmail - Free Email before Gmail";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+
+.az:hover{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.az:hover::before{
+    content: "Amazon - Buy anything in this World!";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+.uy:hover{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.uy:hover::before{
+    content: "Udacity - Training by Google";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+.ud:hover{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+
+.ud:hover::before{
+    content: "Udemy - Lots of Classes";
+    position: absolute;
+    color: white;
+    background-color: black;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20%;
+    border-width:10px;
+    border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+@media screen and (max-width: 450 px){
+    h1{
+        color:pink;
+    }
+    
+ 
+  
+
+}
+@media screen and (max-width:550px){
+    h1{
+        color:greenyellow;
+    }
+    
+    .links{
+        display:none;
+        
+    }
+@media screen and (min-width:551 px and max-width:650 px){
+        h1{
+            color:blue;
+        }
+        
+     
+      
+    
+    }
+@media screen and (max-width:750 px){
+        h1{
+            color:red;
+        }
+    
+    }
+@media screen and (max-width:850 px){
+        h1{
+            color:yellow;
+        }
+
+    
+    }
+
+
+
+/* Center without relative capabilities */
+  /* .favoritewebsite{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+  } */
